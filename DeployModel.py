@@ -8,6 +8,7 @@ import nltk
 import string
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer 
+nltk.download('punkt')
 
 #----------------------------------------------------------------------------
 # 2. Loading the saved ML model
